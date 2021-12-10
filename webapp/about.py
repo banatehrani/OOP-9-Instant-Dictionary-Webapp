@@ -1,5 +1,6 @@
 import justpy as jp
 
+
 class About:
     path = "/about"
 
@@ -14,6 +15,3 @@ class About:
         sdfsfsf
         """, classes="text-lg")
         return wp
-
-jp.Route(About.path, About.serve)
-jp.justpy(port=8001)
